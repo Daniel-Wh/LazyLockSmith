@@ -115,6 +115,25 @@ header {
     justify-content: center;
     align-items: center;
 }
+.header-right img{
+    border-radius: 10px;
+    box-shadow: 0 0 1pt 1pt rgba(0, 0, 0, 0.3);
+    filter: brightness(75%);
+}
+.header-right img:first-child{
+    position: relative;
+    height: 50%;
+    width: auto;
+    top: 10%;
+    z-index: 1;
+}
+.header-right img:last-child{
+    position: relative;
+    height: 60%;
+    width: auto;
+    bottom: 10%;
+    left: 30%;
+}
 .header-left {
     
     display: flex;
