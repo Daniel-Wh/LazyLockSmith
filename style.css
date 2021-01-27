@@ -58,7 +58,17 @@ nav ul li a{
     color: #050527;
     font-size: 26px;
     cursor: pointer;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
     
+}
+nav ul li a:hover{
+    border-bottom: 2px solid #f87c00;
+}
+
+nav ul li a:active{
+    border-bottom: 2px solid #050527;
+    color: #f87c00;
 }
 nav .phone {
     position: relative;
@@ -181,6 +191,7 @@ header {
     text-transform: uppercase;
     font-size: 22px;
     margin-bottom: 20px;
+    text-align: center;
 
 }
 .quote-and-number .phone{
@@ -205,4 +216,22 @@ header {
     color: white;
     text-decoration: none;
     font-size: 24px;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left-icons{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-icons i{
+    font-size: 22px;
+    color: white;
+}
+.left-icons span{
+    font-size: 22px;
 }
